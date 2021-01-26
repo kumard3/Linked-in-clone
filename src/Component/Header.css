@@ -1,0 +1,37 @@
+.header{
+    position: sticky;
+    z-index: 999;
+display: flex;
+justify-content: space-evenly;
+border-bottom: 0.1px solid lightgray;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.header_left {
+    display: flex;
+
+}
+
+.header_left > img{
+    object-fit: contain;
+    height: 50px;
+}
+.header_search{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    /* padding: 10px; */
+    border-radius: 22px;
+    color: gray;
+}
+.header_search > input{
+    outline: none;
+    border: none;
+    background: none;
+}
+.header_right{
+display: flex;
+
+}
